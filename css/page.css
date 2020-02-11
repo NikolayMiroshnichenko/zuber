@@ -1,0 +1,318 @@
+.header-buttom,
+.header {
+	display: none;
+}
+.main-page-wrapper {
+	width: 100%;
+	height: 680px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 80px;
+}
+.main-computer-diagnostick {
+	background-image: url(../img/page/computer-diagnostick.jpg);
+}
+.main-diesel {
+	background-image: url(../img/page/diesel-wrapper.jpg);		
+}
+.main-tnwd {
+	background-image: url(../img/page/tnvd.jpg);		
+}
+.main-starter {
+	background-image: url(../img/page/starter.jpg);	
+}
+.main-gbo {
+	background-image: url(../img/page/gbo.jpg);
+}
+.main-running {
+	background-image: url(../img/page/running.jpg);	
+}
+.main-welding {
+	background-image: url(../img/page/welding.jpg);
+}
+.top-header {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.page-header {
+	width: 90%;
+	margin: 0 auto;
+}
+.page-header-logo {
+	width: 100px;
+	height: 40px;
+	background-image: url(../img/page/page-logo.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.page-header-container {
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.bottom-header {
+	width: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.main-page__title {
+	padding: 120px 0 20px 80px;
+	width: 600px;
+	color: #ffffff;
+	font-size: 42px;
+	font-weight: 900;
+}
+.page-main-text {
+	font-size: 16px;
+	color: #ffffff;
+	padding-left: 80px;
+	margin-bottom: 20px;
+	width: 600px;
+}
+.main-page__title span {
+	color: #FFF34A;	
+	text-shadow: #FFF34A 1px 0 10px;	
+}
+.page-content {
+	position: relative;
+	margin-bottom: 80px;
+}
+.page-content__title {
+	color: #000;
+	text-align: center;
+	padding: 0 0 40px 0;
+	font-size: 28px;
+	font-family: 'Proxima Nova Th';
+	font-style: italic;
+}
+.page-content__text {
+	font-size: 14px;
+	text-align: center;
+	color: rgba(0,0,0,0.8);
+	margin-bottom: 40px;
+}
+.content-list {
+	padding-left: 80px;
+	margin-bottom: 40px;
+	width: 50%;
+}
+.content-list__title,
+.title-item {
+	font-weight: 700;
+	font-size: 24px;
+	font-family: 'Proxima Nova Th';
+	font-style: normal;
+	margin-bottom: 40px;
+}
+.title-item {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.content-list__item {
+	position: relative;
+	padding-left: 40px;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.content-list__item:before {
+	position: absolute;
+	content: "";
+	top: 6px;
+	left: 10px;
+	width: 20px;
+	height: 2px;
+	background-color: #FFB300;
+}
+.content-list__text {
+	position: relative;
+	width: 560px;
+	font-size: 16px;
+	margin-bottom: 10px;	
+	font-family: 'Proxima Nova Rg';	
+}
+.contacts-img {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.contenIcon {
+	position: absolute;
+	right: 200px;
+	top: 38%;
+	transform: translateY(-50%);
+}
+.contenIcon-item {
+	width: 200px;
+	margin-bottom: 40px;
+}
+.contenIcon-item__img {
+	display: block;
+	width: 40px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.contenIcon-item__title {
+	color: #000;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Proxima Nova Th';
+	font-style: italic;
+}
+.welding-content {
+	display: flex;
+	justify-content: space-between;
+}
+.weldingIcon {
+	position: static;
+	display: flex;
+	justify-content: space-around;
+	transform: translateY(0);
+}
+
+
+
+@media (min-width: 1440px) {
+	.main-page-wrapper {
+		height: 720px;
+	} 
+	.main-page__title {
+		padding: 150px 0 20px 80px;
+	}
+}
+@media (min-width: 1600px) {
+	.main-page-wrapper {
+		height: 890px;
+	}
+
+}
+@media (min-width: 1600px) {
+    .container-max {
+        max-width: 2000px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1169px) { 
+	.welding-content {
+		flex-direction: column;
+		align-items: center;
+	}
+	.header {
+		display: block;
+	}
+	.page-header {
+		display: none;
+	}
+	.main-page-wrapper {
+		position: relative;
+        height: 540px;
+	}
+	.main-page__title {
+		font-size: 24px;
+        width: 320px;
+        padding: 140px 0 0 20px;
+        margin-bottom: 8px;
+	}
+	.page-main-text {
+		display: none;
+	}
+	.page-content__title {
+		font-size: 24px;
+	}
+	.page-content__text {
+		font-size: 12px;
+		width: 320px;
+		margin: 0 auto;
+		margin-bottom: 40px;
+	}
+	.content-list {
+		padding-left: 20px;
+		width: 90%;
+	
+	}
+	.content-list__title,
+	.title-item {
+		text-align: center;
+		font-size: 22px;
+	}
+	.content-list__title {
+		font-size: 16px;
+	}
+	.title-item {
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+	.content-list {
+
+	}
+	.content-list__item {
+		position: relative;
+		padding-left: 20px;
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+	.content-list__item:before {
+		top: 6px;
+		left: 0px;
+		width: 10px;
+		height: 2px;
+	}
+	.content-list__text {
+		width: 320px;
+		font-size: 14px;
+	}
+	.contenIcon {
+		position: static;
+		display: flex;
+		justify-content: space-around;
+		transform: translate(0);
+	}
+	.contenIcon-item {
+		width: 100px;
+		margin-bottom: 20px;
+	}
+	.contenIcon-item__img {
+		display: block;
+		width: 40px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.contenIcon-item__title {
+		font-size: 14px;
+	}
+	.contacts-img {
+		width: 90%;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
