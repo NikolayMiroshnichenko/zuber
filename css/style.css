@@ -212,6 +212,7 @@ body {
 .sliderContainer {
 	position: relative;
 	width: 968px;
+	height: auto;
 	margin: 0 auto;
 }
 .slider {
@@ -225,9 +226,11 @@ body {
 .slider-item__img {
 	width: 56%;
 	display: block;
-	height: auto;
+	height: 320px;
+	object-fit: contain;
 }
 .slider-content {
+	position: relative;
 	width: 40%;
 }
 .slider-content__info {
@@ -263,7 +266,7 @@ body {
 }
 .slider-content__text,
 .slider-content__deskriptions {
-	font-size: 16px;
+	font-size: 14px;
 	color: rgba(0,0,0,0.8);
 	margin-bottom: 20px;
 }

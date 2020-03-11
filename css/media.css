@@ -211,6 +211,10 @@
         overflow: hidden;
 
     }
+    .slider {
+        display: flex;
+        align-items: center;
+    }
     .slider-item {
         position: relative;
         width: 320px;
@@ -223,15 +227,18 @@
     }
     .slider-content {
         width: 320px;
+        overflow: visible;
         display: flex;
         flex-direction: column;
-        align-items: center;
+    }
+    .slider-content__title {
+        text-align: center;
     }
     .slider-content__btn {
         position: absolute;
         width: 200px;
         font-size: 16px;
-        bottom: 0;
+        bottom: -300px;
         left: 50%;
         transform: translateX(-50%);
     }
